@@ -1,0 +1,187 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headers{
+    display: none;
+}
+.class{
+    display: none;
+}
+.header{
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+  margin: auto;
+    align-items: center;
+background: #E5E5E5;
+
+
+.text{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 29px;
+text-align: center;
+
+
+
+
+color: #282828;
+}
+.text p{
+    width: 300px;
+  font-size: 14px;
+}
+.imput{
+    padding: 15px 120px 15px 10px;
+    margin: 10px;
+   border: none;
+   border-radius: 50px;
+   color: #000;
+}
+.imput:hover{
+   background: rgba(25, 123, 221, 1);
+}
+.forma p{
+   display: flex;
+   justify-content: flex-end;
+}
+.btn button{
+  background: rgba(25, 123, 221, 1);
+
+    padding: 15px 70px 15px 70px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+/* white */
+
+color: #FFFFFF;
+
+
+}
+.about {
+    display: flex;
+align-items: center;
+ 
+  
+.sinf{
+ color:  rgba(25, 123, 221, 1);
+    margin: 10px;
+}
+.sinf:hover{
+ text-decoration: underline #282828;
+
+}
+}
+
+ 
+}
+section{
+      width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+  margin: auto;
+    align-items: center;
+background: #E5E5E5;
+text-align: center;
+
+.text{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+/* dark */
+
+color: #282828;
+
+}
+.text p{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 17px;
+text-align: center;
+
+width: 335px;
+
+color: #959595;
+
+
+}
+.input{
+    
+      padding: 15px 120px 15px 10px;
+    margin: 10px;
+   border: none;
+   border-radius: 50px;
+   color: #000;
+
+}
+.input:hover{
+   background: rgba(25, 123, 221, 1);
+}
+.btn1 button{
+    background: rgba(25, 123, 221, 1);
+
+    padding: 15px 60px 15px 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+margin: 20px 0 0 0 ;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+.text1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.voiti{
+     color:  rgba(25, 123, 221, 1);
+     margin: 20px;
+         text-align: center;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+}
+.voiti:hover{
+    text-decoration: underline ;
+}
+}

@@ -1,0 +1,220 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.headers {
+  display: flex;
+}
+
+.class {
+  display: flex;
+}
+
+.header {
+  width: 250px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 60px;
+  margin: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #E5E5E5;
+}
+
+.header .text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #282828;
+}
+
+.header .text p {
+  width: 300px;
+  font-size: 14px;
+}
+
+.header .imput {
+  padding: 15px 120px 15px 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  color: #000;
+}
+
+.header .imput:hover {
+  background: #197bdd;
+}
+
+.header .forma p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.header .btn button {
+  background: #197bdd;
+  padding: 15px 70px 15px 70px;
+  border-radius: 50px;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  /* white */
+  color: #FFFFFF;
+}
+
+.header .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header .about .sinf {
+  color: #197bdd;
+  margin: 10px;
+}
+
+.header .about .sinf:hover {
+  -webkit-text-decoration: underline #282828;
+  text-decoration: underline #282828;
+}
+
+section {
+  width: 250px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 60px;
+  margin: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #E5E5E5;
+  text-align: center;
+}
+
+section .text {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  /* dark */
+  color: #282828;
+}
+
+section .text p {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  width: 335px;
+  color: #959595;
+}
+
+section .input {
+  padding: 15px 120px 15px 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  color: #000;
+}
+
+section .input:hover {
+  background: #197bdd;
+}
+
+section .btn1 button {
+  background: #197bdd;
+  padding: 15px 60px 15px 60px;
+  border-radius: 50px;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 20px 0 0 0;
+  /* white */
+  color: #FFFFFF;
+}
+
+section .text1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+section .voiti {
+  color: #197bdd;
+  margin: 20px;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+section .voiti:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
